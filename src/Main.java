@@ -9,7 +9,12 @@ public class Main {
     }
 
     @Test
-    public void println(User user) {
+    public void println() {
+        User user = new User();
+        user.setName("a aa ");
+        user.setDescription("ddfdf ");
+        user.setAge(0);
+
         System.out.println(user.toString());
     }
 }
