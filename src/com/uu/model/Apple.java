@@ -9,6 +9,7 @@ package com.uu.model;
 public class Apple {
     private String name;
     private Integer age;
+    private Integer weight;
 
     public String getName() {
         return name;
